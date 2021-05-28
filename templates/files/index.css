@@ -1,0 +1,178 @@
+
+.login-div{
+  background-color: rgba(255, 255, 255, 0.63);
+  text-align: center;
+  border: 3px solid green;
+   
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.226);
+  border-radius: 0px;
+
+
+  width: auto;
+  margin-right: 10px;
+  margin-left: 70%;
+  margin-top: -250px;
+}
+ 
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .nab{
+   color: blue;
+  }
+  .textOne{
+    font-size: 0px;
+
+}
+.nav-link {
+ padding: 0px
+ 
+}
+.nav-item{
+  padding: .0rem;
+  
+
+
+}
+.jumbotron{
+  margin: 0px;
+  margin-bottom:.0rem;
+}
+.nav-link {
+  display: block;
+  color: beige;
+  
+}
+a:hover {
+  
+  text-decoration: underline;
+}
+
+.textIndex{
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Alfa Slab One', cursive;
+  background-color: rgb(104, 114, 209);
+
+}
+.h5ss{
+  padding-top: 15px;
+  color: rgb(255, 255, 255);
+}
+navbar {
+
+   padding: .0rem 0rem;
+}
+
+nav {
+ 
+  background-color: #555151;
+ 
+}
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+.display-4{
+  color: rgb(58, 194, 204);
+  text-shadow: 2px 2px #110202;
+  font-family: 'Alfa Slab One', cursive;
+}
+.footer{
+  font-family: 'Alfa Slab One', cursive;
+}
+body {
+  background: #ff5f6d;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  min-height: 100vh;
+}
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+.indexDescription{
+  text-align: left;
+  background-color: rgba(255, 248, 220, 0.397);
+  margin: 20px;
+  width: 50%;
+  margin-top: 5px;
+  border-radius: 20px 0px 20px 20px;
+  padding: 5px;
+  border: 5px dotted rgba(155, 50, 50, 0.15);
+  box-shadow: 5px black;
+  
+ 
+
+}
+body{
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.container{
+  padding-bottom: 0px;
+}
+.input-field{
+  color: #110202;
+}
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

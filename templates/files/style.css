@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+body{
+    background-color: #ff5438;
+    font-family: 'Sansita Swashed', cursive;
+}
+.container{
+    margin: 20px 40px;
+    color: aliceblue;
+}
+.heading{
+    font-size: 60px;
+    color: white;
+}
+.heading span{
+    font-style: italic;
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+.profile{
+    flex-basis: 260px;
+}
+.profile .profile-img{
+    height: 350px;
+    width: 250px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
